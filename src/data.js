@@ -28,7 +28,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I am an enthusiastic and dedicated Full-Stack web developer, with a deep interest in innovation and technology. I excel both in collaborating with teams and working independently, ensuring that the outcomes always meet or exceed the established goals. 🚀";
 
 /* Skills
  ************************************************************** 
@@ -80,6 +80,21 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="akar-icons:php-fill" className="display-4" />,
+    name: "PHP",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="devicon-plain:mongodb-wordmark" className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="mdi:jira" className="display-4" />,
+    name: "Jira",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -89,12 +104,24 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = [
+  "front-rickandmorty",
+  "pi-joaquindelaiglesia",
+  "frontend-pf",
+];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "front-rickandmorty",
+    image: Logo,
+  },
+  {
+    name: "pi-joaquindelaiglesia",
+    image: Logo,
+  },
+  {
+    name: "frontend-pf",
     image: Logo,
   },
 ];
